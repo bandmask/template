@@ -1,4 +1,4 @@
-FROM mhart/alpine-node
+FROM arm32v6/node:alpine
 
 WORKDIR /usr/src/app
 
