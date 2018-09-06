@@ -7,6 +7,8 @@
   "scripts": {
     "docker:build": "docker build -t bandmask/web .",
     "docker:run": "docker run -p 80:49160 -d bandmask/web",
-    "docker": "docker:build && docker:run"
+    "docker": "yarn docker:build && yarn docker:run",
+
+    "pipe": "cd ./frontend && yarn build && cd ../ && yarn docker"
   }
 }
