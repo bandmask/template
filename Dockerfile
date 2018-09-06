@@ -24,5 +24,7 @@ COPY server/server.js ./
 
 RUN yarn install
 
+ADD frontend/dist ./
+
 EXPOSE 8080
 CMD [ "yarn", "start" ]
