@@ -26,5 +26,5 @@ RUN yarn install
 
 ADD frontend/dist ./
 
-EXPOSE 8080
+EXPOSE 49160
 CMD [ "yarn", "start" ]
