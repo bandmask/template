@@ -1,0 +1,14 @@
+{
+  "name": "containerized_web_app",
+  "version": "1.0.0",
+  "description": "Containerized web app running node backend",
+  "author": "Niklas Johansson <admin@ropr.com>",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
