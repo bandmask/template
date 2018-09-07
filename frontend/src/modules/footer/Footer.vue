@@ -14,6 +14,6 @@ export default {}
   width: 100%;
   padding: 10px 0px;
   bottom: 10px;
-  font-size: 8px;
+  font-size: 14px;
 }
 </style>

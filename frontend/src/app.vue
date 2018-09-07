@@ -5,7 +5,7 @@
       <router-link to="/about">About</router-link> |
       <router-link to="/architecture">Architecture</router-link>
     </div>
-    <router-view class="content" />
+    <router-view class="component-content" />
     <Footer></Footer>
   </div>
 </template>
@@ -43,8 +43,8 @@ body {
       }
     }
 
-    .content {
-      padding: 10px 0px 5px 0px;
+    .component-content {
+      padding: 20px 0px;
     }
 
     h1,

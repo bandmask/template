@@ -81,13 +81,13 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 250px;
+    height: 380px;
 
     .gallery-image {
       display: flex;
       padding: 0px 8px;
       border-radius: 4px;
-      margin: 0px 10px;
+      margin: 0px 20px;
       justify-content: center;
       align-items: center;
       cursor: cell;
@@ -95,22 +95,20 @@ export default {
       &:hover {
         img {
           transform: scale(1.1);
-          box-shadow: 0px 0px 17px 0px rgba(50, 50, 50, 0.7);
+          box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.7);
         }
       }
 
       img {
         border-radius: 2px;
-        height: 200px;
+        height: 300px;
         transition-duration: 1.1s;
       }
     }
   }
   .content {
-    width: 500px;
+    width: 800px;
     margin: 0px auto;
-    font-size: 10px;
-
     text-align: left;
 
     ul {
@@ -119,7 +117,6 @@ export default {
     }
 
     .emphasis {
-      font-size: 12;
       font-weight: 600;
     }
   }
