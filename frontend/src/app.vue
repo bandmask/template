@@ -7,6 +7,7 @@
     </div>
     <router-view class="component-content" />
     <Footer></Footer>
+    <div>{{this.$mq}}</div>
   </div>
 </template>
 
