@@ -9,18 +9,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: () => import('@/modules/home/Home.vue')
-    },
-    {
-      path: '/architecture',
-      name: 'architecture',
-      component: () => import('@/modules/architecture/Architecture.vue')
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: () => import('@/modules/about/About.vue')
+      name: 'exampleModule',
+      component: () => import('@/modules/exampleModule/ExampleModule')
     }
   ]
 })
